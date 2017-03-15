@@ -1,0 +1,105 @@
+body {
+  background-color: #FFFFF3; 
+  box-sizing: border-box;
+}
+
+.quote-box {
+  width: 50%;
+  margin: auto;
+  position: fixed;
+  border-radius: 30px;
+  top: 15%;
+  left: 25%;
+}
+
+.quote-text {
+  margin: 10%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.quote-author {
+  display: inline-block;
+  font-size: 2.5vw;
+  text-align: left;
+  font-family: 'Amatic SC', cursive;
+  margin: auto;
+}
+
+.quote-button {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  font-size: 2.5vw;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  margin-top: 0.5vw;
+  border-radius: 13px;
+  border: 1px solid black;
+  text-decoration: none;
+  background: #30A9DE;
+}
+button:focus {
+  outline: 0;
+  border: 1px solid black;
+}
+
+button:hover {
+  outline: 0;
+  border: 1px solid black;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+ 
+  .quote-text,
+  .quote-author,
+  .quote-button {
+    font-size: 5vmin;
+  }
+   .fooresp{
+    font-size:20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .quote-text,
+  .quote-author,
+  .quote-button {
+    font-size: 180%;
+    margin: 10px;
+  }
+ .fooresp{
+    font-size:15px;
+  }
+
+  .quote-box {
+    width: 80%;
+    margin-right: 0;
+    margin-left: -15%;
+  }
+  
+}
+footer{
+  font-size: 1.5vw;
+  font-family: 'Amatic SC', cursive;
+  text-align: right;}
+
+footer a{
+  text-decoration: none!important;
+  color:black;
+  cursor:pointer;
+}
+a:hover{
+  text-decoration:none!important;
+}
+ a:focus{
+    text-decoration:none!important;
+}
+a:visited{
+  text-decoration:none;
+}
