@@ -12,6 +12,18 @@
 	  }, {
 	    quote: "\"Success is one percent inspiration, ninety-nine percent perspiration\"",
 	    author: "Thomas Edison",
+	  }, {
+	    quote: "\"You miss 100% of the shots you don’t take\"",
+	    author: "Wayne Gretzky",
+	  }, {
+	    quote: "\"Build your own dreams, or someone else will hire you to build theirs\"",
+	    author: "Farrah Gray",
+	  }, {
+	    quote: "\"Fall seven times and stand up eight\"",
+	    author: "Japanese Proverb",
+	  }, {
+	    quote: "\"Be soft. Do not let the world make you hard. Do not let pain make you hate. Do not let the bitterness steal your sweetness. Take pride that even though the rest of the world may disagree, you still believe it to be a beautiful place\"",
+	    author: "Kurt Vonnegut",
 	  }];
 
 	  $(".quote-button").click(function() {
